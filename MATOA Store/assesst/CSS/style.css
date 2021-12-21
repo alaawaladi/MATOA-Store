@@ -1,0 +1,593 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+/* Start navbar*/
+.navbar-expand-lg{
+   margin-top: 20px;
+   margin-bottom: 30px;
+   font-family: Taviraj;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 31px;
+
+/* identical to box height */
+letter-spacing: 0.02em;
+
+color: #333333;
+
+
+}
+.icon-bar{
+    width: 300px;
+    justify-content: space-between
+}
+.round{
+        width: 42px;
+        height: 42px;
+        background: #F1DDC9;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50%;
+}
+.round img{
+    position: relative;
+    left: 9px;
+    top: 3px;
+}
+/* End navbar*/
+
+/* start main*/
+
+.container .main{
+    height: 520px; 
+    background: #F1DDC9;
+}
+.container .main img{
+    position: absolute;
+    width: 296px;
+    height: 451px;
+    left: 144px;
+    top: 244px;
+
+
+}
+.container .main .main_title .title{
+    position: absolute;
+width: 455px;
+height: 160px;
+left: 545px;
+top: 216px;
+
+font-family: Taviraj;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 80px;
+
+/* or 133% */
+letter-spacing: 0.02em;
+
+color: #333333;
+
+
+}
+.container .main .main_title .text{
+    position: absolute;
+width: 529px;
+height: 66px;
+left: 545px;
+top: 408px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.03em;
+
+color: #333333;
+
+
+}
+.container .main .main_title #more{
+    position: absolute;
+width: 74px;
+height: 27px;
+left: 545px;
+top: 482px;
+
+font-family: Taviraj;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 27px;
+letter-spacing: 0.03em;
+
+color: #333333;
+
+border-bottom: 1px solid #333333;
+}
+.container .main .main_title #btt_more{
+    position: absolute;
+width: 208px;
+height: 62px;
+left: 545px;
+top: 553px;
+border: none;
+background: #D84727;
+}
+.container .main .main_title #btt_more img{
+    position: relative;
+    left: -7.42%;
+    right: 60.19%;
+    top: -5.68%;
+    bottom: 66.04%;
+    width: 32px;
+    height: 32px;
+
+}
+.container .main .main_title #btt_more span{
+font-family: Taviraj;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 34px;
+letter-spacing: 0.02em;
+color: #FFFF
+}
+
+
+
+.container .main .main_title #cici{
+    position: absolute;
+width: 140px;
+height: 62px;
+left: 769px;
+top: 553px;
+
+border: 2px solid #D84727;
+box-sizing: border-box;
+}
+.container .main .main_title #cici img{
+    position: absolute;
+    left: 26.8%;
+    right: 10.51%;
+    top: 20.15%;
+    bottom: 1.17%;
+    width: 57px;
+    height: 32px;
+}
+
+/* start sell items */
+
+.container .sell{
+    margin: 10% 0 10% 0;
+}
+
+.container .sell h2{
+    width: 340px;
+    height: 44px;
+font-family: Taviraj;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 32px;
+
+/* identical to box height, or 114% */
+letter-spacing: 0.03em;
+
+color: #333333;
+}
+
+.container .sell p{
+width: 345px;
+height: 50px;
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+/* or 150% */
+letter-spacing: 0.03em;
+
+color: #777777;
+}
+
+.container .sell button{
+    position: relative;
+bottom: 66px;
+font-family: Taviraj;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 27px;
+letter-spacing: 0.03em;
+color: #333333;
+background: none;
+border: none;
+border-bottom: 1px solid #777777;
+}
+
+.container .sell .glasses{
+    position: relative;
+    width: 330px;
+    height: 143px;
+    left: 13%;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.container .sell .watch{
+    position: relative;
+    width: 155px;
+    height: 152px;
+    bottom: 9px;
+    left: 37%;
+}
+
+/* start minth deals*/
+
+.container .month_deals img{
+    width: 207px;
+height: 221px;
+}
+
+.container .month_deals .btt_one{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #333333;  
+    background: none;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.container .month_deals .btt_one span{
+    text-decoration: underline  #333333;
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #333333;  
+    background: none;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.container .month_deals h2{
+font-family: Taviraj;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #333333;
+margin-top: 30px;
+}
+.container .month_deals p{
+    font-family: Taviraj;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #777777;
+}
+
+.container .month_deals span{
+    font-family: Taviraj;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 45px;
+color: #777777;
+text-decoration: line-through red;
+
+}
+
+.container .month_deals h3{
+    font-family: Taviraj;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+color: #333333;
+
+
+}
+
+.container .month_deals .btt_two{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container .month_deals .btt_two button:first-child{
+width: 39px;
+height: 39px;
+background:none ;
+border: none;
+border: 1px solid #D84727;
+margin: 20px;
+}
+
+.container .month_deals .btt_two button:first-child img{
+    width: 24px;
+    height: 24px;
+}
+.container .month_deals .btt_two button:last-child{
+    width: 158px;
+height: 39px;
+left: 523px;
+top: 1743px;
+background: #D84727;
+border: none;
+font-family: Taviraj;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+/* start News*/
+
+.container .news #first{
+height: 80px;
+font-family: Taviraj;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+color: #333333;
+}
+.container .news #first span{
+text-decoration: underline #333333;
+}
+
+.container .news #second{
+    position: absolute;
+left: 165px;
+top: 1860px;
+font-family: Taviraj;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 40px;
+letter-spacing: 0.02em;
+color: #777777;
+
+}
+
+.container .news #third{
+    position: absolute;
+    left: 165px;
+top: 1914px;
+    width: 410px;
+    height: 150px;
+font-family: Taviraj;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: 0.02em;
+color: #333333;
+}
+
+.container .news button{
+    position: absolute;
+width: 160px;
+height: 58px;
+left: 165px;
+top: 2050px;
+background: none;
+border: 2px solid #D84727;
+box-sizing: border-box;
+font-family: Taviraj;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 27px;
+letter-spacing: 0.02em;
+color: #D84727;
+}
+
+.container .news img{
+    width: 610px;
+height: 484px;
+left: 580px;
+top: 1998px;
+
+
+}
+/* start series*/
+.series .title{
+    margin: 40px;
+    text-align: center;
+    text-decoration: underline 1px #333333;
+}
+.series  h2{
+font-family: Taviraj;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #333333;
+margin-top: 30px;
+}
+.container .series .cube{
+    background: #F1DDC9;
+    width: 131px;
+    height: 131px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .info_series h2 {
+    position: relative;
+    left: 50%;
+    top: -50%;
+    font-family: Taviraj;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+
+/* or 133% */
+letter-spacing: 0.02em;
+
+color: #333333;
+}
+.container .info_series p {
+    position: relative;
+    left: 50%;
+    top: -40%;
+    font-family: Taviraj;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 40px;
+
+/* identical to box height, or 143% */
+letter-spacing: 0.02em;
+
+color: #222222;
+}
+
+.container .series .btn{
+    width: 272px;
+    height: 66px;
+    background: none;
+    border: 2px solid #D84727;
+    box-sizing: border-box;
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    color: #D84727;
+}
+
+.container .series .btn_seri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.info_pic h2{
+    font-family: Taviraj;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #333333;
+margin-top: 30px;
+text-decoration: underline 1px #333333;
+}
+.info_pic p{
+    font-style: normal;
+font-size: 15px;
+line-height: 40px;
+
+/* identical to box height, or 143% */
+letter-spacing: 0.02em;
+
+color: #777777;
+}
+
+.info_pic h3{
+    font-family: Taviraj;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    margin-top: 30px;
+}
+.info_pic p:last-child{
+    color: #777777;
+}
+
+.info_pic .btn_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+/*start instgram*/
+
+.container .inst{
+    margin: 50px 0 50px 0;
+}
+
+.container .inst h2{
+    font-family: Taviraj;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+color: #333333;
+text-decoration: underline #222222;
+margin-bottom: 40px;
+}
+
+/* start first footer*/
+
+.first_footer .col{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.first_footer img{
+    width: 100px;
+    height: 100px;
+}
+
+/*start second footer*/
+.container-fluid{
+    color: #FFFFFF;
+}
+.second_footer img{
+    color: #FFFFFF;
+    margin: 15px;
+}
+ .second_footer h2 {
+    font-family: Taviraj;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+margin: 10px;
+}
+
+.second_footer p{
+    font-family: Taviraj;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 27px;
+letter-spacing: 0.03em;
+margin: 15px;
+}
+
+.second_footer .col-3 h2{
+    text-decoration: underline 1px #FFFFFF;
+}
